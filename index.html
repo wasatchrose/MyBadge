@@ -1,0 +1,54 @@
+<html>
+    <body>
+        <div class="name-badge">
+            <div class="label">
+                <span class="big-text">Hello</span>
+                <span>my name is</span>
+            </div>
+            <div class="name">Marilynn</div>
+        </div>
+    </body>
+    <style>
+        .label span {
+            font-family:'Courier New', Courier, monospace;
+        }
+        body{
+            background:#404040;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+
+        .name-badge{
+            width: 200px;
+            height:175px;
+            border-radius: 15px;
+            background: red;
+            box-shadow: 3px 6px #1E1E1E;
+            position: relative;
+        }
+        .name{
+            font-size:36px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width:100%;
+            background: white;
+            font-family:'Courier New', Courier, monospace;
+            text-align: center;
+            position: absolute;
+            bottom: 15px;
+        }
+        .label { 
+            display: flex;
+            flex-direction: column;
+        }
+        .label * {
+            color: white;
+            text-align: center;
+        }
+        .big-text{
+            font-size: 30px;
+        }
+    
+    </style>
+</html>
